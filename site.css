@@ -1,8 +1,70 @@
 * {
-    font-family: Helvetica, sans-serif;
-    font-size: 22px;
-    color: seashell;
-    background-color: hsla(0, 0%, 0%, 0.9);
-    box-sizing: border-box;
-    text-align: center;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  background-color: hsla(0, 0%, 0%, 0.9);
+  color: seashell;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: solid 1px seashell;
+  z-index: 10;
+}
+
+h1 {
+  font-family: "Petit Formal Script", cursive;
+  font-size: 2.27rem;
+  margin: 10px;
+  float: left;
+}
+
+ul,
+li {
+  display: inline-block;
+}
+
+ul {
+  float: right;
+  margin: 10px;
+}
+
+li {
+  margin: 20px;
+  text-decoration: underline;
+}
+
+.conatiner {
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 70px;
+  height: 100%;
+  width: auto;
+}
+
+.backgroundImg {
+  background-image: url(./Content/Images/teacozy-background.jpg);
+
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  background-color: hsla(0, 0%, 0%, 0.9);
+  width: 100%;
+}
+
+.teas {
 }
